@@ -103,14 +103,14 @@ Enabled leadership to take proactive, data-driven decisions
 
 ## **DATA CONFIDENTIALITY & NDA COMPLIANCE**
 
-This project reflects real-world healthcare data and business scenarios drawn from an actual enterprise engagement.
+This project reflects **real-world healthcare data and business scenarios** drawn from an **actual enterprise engagement**.
 
-To comply with NDA and confidentiality obligations, the company name “MediCore Health Services Pvt. Ltd.” is used for reference purposes only.
+To comply with **NDA and confidentiality obligations**, the company name **“MediCore Health Services Pvt. Ltd.”** is used for reference purposes only.
 
 All sensitive and identifiable information has been anonymized, and certain values have been masked where required, 
 while maintaining the underlying business logic and analytical outcomes.
 
-The work presented demonstrates enterprise-grade decision-making and practical application of analytics, 
+The work presented demonstrates **enterprise-grade decision-making** and practical application of analytics, 
 rather than hypothetical or academic examples.
 
 
