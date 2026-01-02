@@ -1,15 +1,11 @@
-/* =========================================================
-   BUSINESS QUERIES
-   Project: Patient Operations & Revenue Analytics Platform
-   Purpose: Executive KPIs, RCA insights, and dashboard support
-   ========================================================= */
+# **BUSINESS QUERIES**
+## **Project: Patient Operations & Revenue Analytics Platform**
+## **Purpose: Executive KPIs, RCA insights, and dashboard support**
+  
 
-
-/* ---------------------------------------------------------
-   1. APPOINTMENT VOLUME & STATUS OVERVIEW
+## **1. APPOINTMENT VOLUME & STATUS OVERVIEW**
    Business Question:
    How many appointments are completed, no-shows, or cancelled?
---------------------------------------------------------- */
 
 SELECT
     appointment_status,
@@ -18,11 +14,9 @@ FROM healthcare_analytics.fact_appointments
 GROUP BY appointment_status;
 
 
-/* ---------------------------------------------------------
-   2. NO-SHOW RATE (RCA: High No-Show Percentage)
+## **2. NO-SHOW RATE (RCA: High No-Show Percentage)**
    Business Question:
    What is the overall no-show rate?
---------------------------------------------------------- */
 
 SELECT
     ROUND(
@@ -33,11 +27,9 @@ SELECT
 FROM healthcare_analytics.fact_appointments;
 
 
-/* ---------------------------------------------------------
-   3. NO-SHOW RATE BY DEPARTMENT
+## **3. NO-SHOW RATE BY DEPARTMENT**
    Business Question:
    Which departments contribute most to no-shows?
---------------------------------------------------------- */
 
 SELECT
     d.department_name,
@@ -55,11 +47,9 @@ GROUP BY d.department_name
 ORDER BY no_show_percentage DESC;
 
 
-/* ---------------------------------------------------------
-   4. AVERAGE PATIENT WAIT TIME (RCA: Excessive Wait Time)
+## **4. AVERAGE PATIENT WAIT TIME (RCA: Excessive Wait Time)**
    Business Question:
    What is the average wait time overall?
---------------------------------------------------------- */
 
 SELECT
     ROUND(AVG(wait_time_minutes), 2) AS avg_wait_time_minutes
@@ -67,11 +57,9 @@ FROM healthcare_analytics.fact_appointments
 WHERE appointment_status = 'Attended';
 
 
-/* ---------------------------------------------------------
-   5. WAIT TIME BY TIME SLOT
+## **5. WAIT TIME BY TIME SLOT**
    Business Question:
    Which slots experience the highest delays?
---------------------------------------------------------- */
 
 SELECT
     slot_type,
@@ -100,11 +88,9 @@ GROUP BY d.doctor_id, d.specialization
 ORDER BY total_appointments DESC;
 
 
-/* ---------------------------------------------------------
-   7. REVENUE LEAKAGE (RCA: Revenue Loss)
+## **7. REVENUE LEAKAGE (RCA: Revenue Loss)**
    Business Question:
    How much revenue is lost due to no-shows?
---------------------------------------------------------- */
 
 SELECT
     ROUND(SUM(revenue_amount), 2) AS revenue_lost
@@ -112,11 +98,9 @@ FROM healthcare_analytics.fact_appointments
 WHERE appointment_status = 'No-Show';
 
 
-/* ---------------------------------------------------------
-   8. REVENUE BY HOSPITAL
+## **8. REVENUE BY HOSPITAL**
    Business Question:
    Which hospitals generate the highest revenue?
---------------------------------------------------------- */
 
 SELECT
     h.hospital_name,
@@ -129,11 +113,9 @@ GROUP BY h.hospital_name
 ORDER BY total_revenue DESC;
 
 
-/* ---------------------------------------------------------
-   9. PREDICTIVE RISK DISTRIBUTION
+## **9. PREDICTIVE RISK DISTRIBUTION**
    Business Question:
    How many appointments fall into each risk category?
---------------------------------------------------------- */
 
 SELECT
     risk_category,
@@ -143,11 +125,9 @@ GROUP BY risk_category
 ORDER BY appointment_count DESC;
 
 
-/* ---------------------------------------------------------
-   10. HIGH-RISK NO-SHOW IMPACT
+## **10. HIGH-RISK NO-SHOW IMPACT**
    Business Question:
    How much potential revenue is at risk from high-risk appointments?
---------------------------------------------------------- */
 
 SELECT
     COUNT(*) AS high_risk_appointments,
