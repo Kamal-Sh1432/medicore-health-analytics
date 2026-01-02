@@ -52,7 +52,9 @@ The solution was delivered using an **Agile / Scrum methodology**, with insights
 
 **Reference Folder:**
 03_Data/
+
 ├── Data_Model_Explanation.md
+
 └── PowerBI_Model_View.png
 
 
@@ -135,7 +137,9 @@ The project includes **8 Power BI dashboards**, each designed to answer a specif
 
 **Reference Folder:**
 06_Dashboards/
+
 ├── Dashboard_Overview.md
+
 └── Dashboard_Screenshots/
 
 
@@ -181,23 +185,38 @@ Based on analytics and AI-driven interventions:
 ## Repository Structure
 
 MediCore-Health-Analytics/
+
 ├── 01_Business_Context/
+
 │ ├── BRD.md
+
 │ ├── FRD.md
+
 │ ├── SRS.md
+
 │ └── RCA_Patient_Operations_and_Revenue.md
+
 │
 ├── 03_Data/
+
 │ ├── Data_Model_Explanation.md
+
 │ └── PowerBI_Model_View.png
+
 │
 ├── 04_SQL/
+
 │ ├── Business_Queries.sql
+
 │ └── Data_Validation.sql
+
 │
 ├── 06_Dashboards/
+
 │ ├── Dashboard_Overview.md
+
 │ └── Dashboard_Screenshots/
+
 │
 └── README.md
 
