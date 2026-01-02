@@ -29,7 +29,7 @@ This project was built to **diagnose root causes** and enable **measurable opera
 
 ---
 
-## Solution Approach (Consulting Style)
+## Solution Approach 
 
 The solution was delivered using an **Agile / Scrum methodology**, with insights and dashboards released incrementally across sprints.
 
