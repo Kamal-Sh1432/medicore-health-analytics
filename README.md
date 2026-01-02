@@ -1,5 +1,5 @@
-#MediCore Health — Healthcare Analytics & Predictive BI Project
-##Business Context
+MediCore Health — Healthcare Analytics & Predictive BI Project
+📌 Business Context
 
 This engagement reflects real-world healthcare analytics work carried out for a multi-hospital healthcare organization operating at scale.
 
@@ -15,7 +15,7 @@ Limited visibility into future operational risks
 
 The objective was to move from reactive reporting to predictive, insight-driven decision-making.
 
-##Project Objectives
+🎯 Project Objectives
 
 Reduce appointment no-show rates through predictive insights
 
@@ -25,7 +25,7 @@ Identify revenue recovery opportunities
 
 Enable leadership with clear, actionable analytics
 
-##My Role — Analytics Consultant
+👤 My Role — Analytics Consultant
 
 I worked closely with business and leadership stakeholders to deliver this engagement end to end:
 
@@ -41,7 +41,7 @@ Developed a predictive model to identify high-risk no-show appointments
 
 Converted analytical outputs into practical business actions
 
-##Tools & Technologies
+🛠 Tools & Technologies
 
 SQL — Data modeling, validation, and business queries
 
@@ -53,7 +53,7 @@ Business Analysis — BRD, FRD, SRS, KPI definition
 
 Agile Delivery — Stakeholder collaboration and iterative delivery
 
-##Dashboard Coverage
+📊 Dashboard Coverage
 
 Executive Healthcare Overview
 
@@ -71,7 +71,7 @@ Management Action Summary
 
 Each dashboard was designed to answer specific leadership questions, not just display metrics.
 
-##Predictive Analytics
+🤖 Predictive Analytics
 
 A machine-learning model was developed to predict the probability of appointment no-shows using historical appointment behavior and operational factors.
 
@@ -83,7 +83,7 @@ Proactive schedule optimization
 
 Better utilization of clinical capacity
 
-##Business Impact
+📈 Business Impact
 
 Identified potential 12–18% reduction in no-shows
 
@@ -93,7 +93,7 @@ Exposed patterns of revenue leakage
 
 Enabled leadership to take proactive, data-driven decisions
 
-##Data Confidentiality & NDA Compliance
+🔒 Data Confidentiality & NDA Compliance
 
 This project is based on real-world healthcare analytics work from an enterprise engagement.
 
