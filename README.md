@@ -154,7 +154,9 @@ SQL was used extensively to:
 
 **Reference Folder:**
 04_SQL/
+
 ├── Business_Queries.sql
+
 └── Data_Validation.sql
 
 ---
