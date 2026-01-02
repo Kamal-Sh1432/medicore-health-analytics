@@ -1,4 +1,4 @@
-MediCore Health — Healthcare Analytics & Predictive BI Project
+##MediCore Health — Healthcare Analytics & Predictive BI Project**
 
 BUSINESS CONTEXT
 This engagement reflects real-world healthcare analytics work carried out for a multi-hospital healthcare organization operating at scale.
