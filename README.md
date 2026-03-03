@@ -293,7 +293,7 @@ Business logic and analytical insights remain realistic and production-grade
 
 This work demonstrates applied enterprise analytics, not academic simulation.
 
-##Author
+## Author
 
 ### Kamal Sharma
 Senior Business Analyst | Analytics Consultant
