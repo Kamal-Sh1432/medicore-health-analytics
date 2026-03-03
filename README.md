@@ -1,6 +1,8 @@
-MediCore Health Analytics
-End-to-End Healthcare Analytics & Predictive BI Platform
-Project Overview
+# MediCore Health Analytics
+
+## End-to-End Healthcare Analytics & Predictive BI Platform
+
+### Project Overview
 
 This project represents a real-world healthcare analytics engagement focused on improving patient operations, protecting revenue, and strengthening clinical capacity planning through structured data analysis and predictive intelligence.
 
@@ -9,7 +11,7 @@ The engagement demonstrates end-to-end enterprise analytics delivery — beginni
 The objective was not to build reports.
 It was to enable leadership to move from reactive monitoring to proactive intervention.
 
-Important Note (NDA Compliance):
+## Important Note (NDA Compliance):
 
 The organization name “MediCore Health Services Pvt. Ltd.” is used for reference purposes only.
 
@@ -33,13 +35,13 @@ These challenges were not isolated metrics — they were interconnected operatio
 
 The project was initiated to diagnose root causes and enable measurable, leadership-level interventions.
 
-Solution Approach
+## Solution Approach
 
 The solution was delivered using an Agile / Scrum methodology, ensuring incremental value delivery across structured sprints.
 
 Rather than building dashboards upfront, the approach prioritized problem clarity, KPI integrity, and stakeholder alignment.
 
-Key Approach Highlights
+## Key Approach Highlights
 
 Business-first framing from CEO / COO perspective
 
@@ -55,7 +57,7 @@ Predictive analytics layer for proactive operational action
 
 Each sprint delivered measurable insights rather than static reports.
 
-Data Model & Architecture
+## Data Model & Architecture
 
 The architecture was designed to ensure analytical integrity, scalability, and executive usability.
 
@@ -82,7 +84,7 @@ Reference Folder: 03_Data/
 └── PowerBI_Model_View.png  
 Dashboards Delivered (8 Total)
 
-Eight focused dashboards were developed, each aligned to a distinct leadership persona and decision requirement.
+## Eight focused dashboards were developed, each aligned to a distinct leadership persona and decision requirement.
 
 Executive Performance Overview
 
@@ -196,13 +198,13 @@ Expected business impact (next 90 days)
 
 Action items with ownership
 
-This dashboard bridges analytics and execution.
+### This dashboard bridges analytics and execution.
 
 Reference Folder: 06_Dashboards/
 
 ├── Dashboard_Overview.md  
 └── Dashboard_Screenshots/  
-SQL & Data Validation
+## SQL & Data Validation
 
 SQL was extensively used to ensure data credibility and KPI reliability.
 
@@ -224,7 +226,7 @@ Reference Folder: 04_SQL/
 
 ├── Business_Queries.sql  
 └── Data_Validation.sql  
-Predictive Analytics (AI No-Show Model)
+## Predictive Analytics (AI No-Show Model)
 
 An appointment-level predictive model was developed to estimate no-show probability.
 
@@ -238,7 +240,7 @@ Designed for operational action (e.g., reminder prioritization, rescheduling str
 
 The model enables revenue recovery without increasing doctor capacity — improving efficiency rather than adding cost.
 
-Business Impact (Projected)
+## Business Impact (Projected)
 
 Based on structured analytics and AI-driven interventions, projected impact includes:
 
@@ -254,7 +256,7 @@ Transition from reactive reporting to proactive decision governance
 
 The initiative converts data into measurable operational and financial outcomes.
 
-Repository Structure
+## Repository Structure
 
 MediCore-Health-Analytics/
 
@@ -277,7 +279,7 @@ MediCore-Health-Analytics/
 │   └── Dashboard_Screenshots/
 │
 └── README.md
-Data Confidentiality & NDA Compliance
+## Data Confidentiality & NDA Compliance
 
 This project reflects enterprise healthcare analytics scenarios derived from a real engagement.
 
@@ -291,7 +293,7 @@ Business logic and analytical insights remain realistic and production-grade
 
 This work demonstrates applied enterprise analytics, not academic simulation.
 
-Author
+##Author
 
-Kamal Sharma
+### Kamal Sharma
 Senior Business Analyst | Analytics Consultant
